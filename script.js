@@ -541,16 +541,16 @@ function renderSlide(index) {
     `;
     } else if (s.type === 'student_list') {
     const listItems = (s.students || []).map((nama, idx) => `
-      <div class="bg-white/80 border border-rose-100 rounded-xl px-4 py-2 text-left text-sm md:text-base font-bold text-stone-700 shadow-xs" data-editable="student_${idx}">
+      <div class="bg-white/85 border border-rose-100 rounded-2xl px-5 py-3 text-left text-lg md:text-xl font-bold text-stone-800 shadow-xs leading-snug" data-editable="student_${idx}">
         ${nama}
       </div>
     `).join('');
 
     html = `
-      <div class="slide-card glass-panel p-6 md:p-10">
-        <span class="px-4 py-1 rounded-full bg-amber-100 text-amber-800 text-xs font-extrabold tracking-widest uppercase mb-2" data-editable="badge">${s.badge}</span>
-        <h1 class="font-serif-display text-3xl md:text-4xl font-bold text-stone-800 mb-5" data-editable="title">${s.title}</h1>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-2.5 w-full max-w-4xl mx-auto">
+      <div class="slide-card glass-panel p-6 md:p-10 w-full max-w-6xl">
+        <span class="px-4 py-1.5 rounded-full bg-amber-100 text-amber-800 text-xs md:text-sm font-extrabold tracking-widest uppercase mb-2" data-editable="badge">${s.badge}</span>
+        <h1 class="font-serif-display text-4xl md:text-6xl font-bold text-stone-800 mb-6" data-editable="title">${s.title}</h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 w-full max-w-6xl mx-auto">
           ${listItems}
         </div>
       </div>
