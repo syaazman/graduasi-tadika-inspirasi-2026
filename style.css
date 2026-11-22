@@ -1,0 +1,308 @@
+/* Besarkan keseluruhan skala tulisan slaid (16px -> 19px / ~20% lebih besar) */
+html {
+  font-size: 19px;
+}
+
+:root {
+  --bg-cream: #FDFBF7;
+  --rose-primary: #A84A6B;
+  --rose-light: #F7DDE6;
+  --sage-primary: #4A7A64;
+  --sage-light: #DDF0E6;
+  --gold-accent: #C59B27;
+  --text-dark: #2D2629;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: var(--bg-cream);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: var(--text-dark);
+  user-select: none;
+}
+
+.font-serif-display {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+/* Ambient Garden Background */
+.garden-bg {
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(circle at 12% 15%, rgba(247, 221, 230, 0.7) 0%, transparent 45%),
+    radial-gradient(circle at 88% 85%, rgba(221, 240, 230, 0.75) 0%, transparent 48%),
+    radial-gradient(circle at 80% 12%, rgba(254, 243, 199, 0.55) 0%, transparent 40%),
+    linear-gradient(135deg, #FDFBF7 0%, #FAF3F6 50%, #F4F9F6 100%);
+  z-index: 0;
+}
+
+/* Sunbeams */
+.sunbeam {
+  position: fixed;
+  top: -20%;
+  right: -10%;
+  width: 75vw;
+  height: 75vw;
+  background: conic-gradient(from 195deg at 75% 15%, rgba(255, 244, 214, 0.45) 0deg, transparent 25deg, rgba(255, 244, 214, 0.35) 50deg, transparent 80deg);
+  pointer-events: none;
+  z-index: 1;
+  animation: sunPulse 9s ease-in-out infinite alternate;
+}
+
+@keyframes sunPulse {
+  0% { opacity: 0.5; transform: rotate(0deg) scale(1); }
+  100% { opacity: 0.95; transform: rotate(4deg) scale(1.04); }
+}
+
+/* Corner Botanicals dengan kesan tiupan angin */
+.corner-flora-tl {
+  position: fixed;
+  top: -15px;
+  left: -15px;
+  width: 310px;
+  height: 310px;
+  pointer-events: none;
+  z-index: 2;
+  transform-origin: top left;
+  animation: swayActive 6s ease-in-out infinite alternate;
+}
+
+.corner-flora-br {
+  position: fixed;
+  bottom: -15px;
+  right: -15px;
+  width: 330px;
+  height: 330px;
+  pointer-events: none;
+  z-index: 2;
+  transform-origin: bottom right;
+  animation: swayActiveOpposite 8s ease-in-out infinite alternate;
+}
+
+@keyframes swayActive {
+  0% { transform: rotate(-3deg) scale(1) skewX(-1deg); }
+  50% { transform: rotate(1deg) scale(1.03) skewX(0.5deg); }
+  100% { transform: rotate(4deg) scale(1.01) skewX(2deg); }
+}
+
+@keyframes swayActiveOpposite {
+  0% { transform: rotate(2deg) scale(1) skewX(1deg); }
+  50% { transform: rotate(-2deg) scale(1.02) skewX(-0.5deg); }
+  100% { transform: rotate(-5deg) scale(1.01) skewX(-2deg); }
+}
+
+/* 3D Butterflies */
+#butterfly-layer {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 20;
+  overflow: hidden;
+}
+
+.butterfly-actor {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  will-change: transform;
+  filter: drop-shadow(0 6px 8px rgba(168, 74, 107, 0.16));
+}
+
+.butterfly-wings {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+}
+
+.wing-left {
+  transform-origin: right center;
+  animation: flapLeft 0.32s ease-in-out infinite alternate;
+}
+
+.wing-right {
+  transform-origin: left center;
+  animation: flapRight 0.32s ease-in-out infinite alternate;
+}
+
+@keyframes flapLeft {
+  0% { transform: rotateY(12deg); }
+  100% { transform: rotateY(68deg); }
+}
+
+@keyframes flapRight {
+  0% { transform: rotateY(-12deg); }
+  100% { transform: rotateY(-68deg); }
+}
+
+/* Floating Petals */
+#particle-layer {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 3;
+  overflow: hidden;
+}
+
+.petal {
+  position: absolute;
+  border-radius: 70% 30% 70% 30%;
+  opacity: 0.75;
+  animation: floatRealistic 12s linear infinite;
+  will-change: transform;
+}
+
+@keyframes floatRealistic {
+  0% {
+    transform: translateY(-10vh) translateX(0) rotate(0deg) scale(0.6);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.85;
+  }
+  50% {
+    transform: translateY(50vh) translateX(60px) rotate(180deg) scale(1);
+  }
+  90% {
+    opacity: 0.75;
+  }
+  100% {
+    transform: translateY(110vh) translateX(-40px) rotate(360deg) scale(0.8);
+    opacity: 0;
+  }
+}
+
+/* Slide Stage */
+#stage {
+  position: relative;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem 4rem;
+}
+
+.slide-card {
+  width: 100%;
+  max-width: 1120px;
+  min-height: 540px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  animation: slideEnter 0.65s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@keyframes slideEnter {
+  0% { opacity: 0; transform: translateY(24px) scale(0.97); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* Transparent Slide Panel */
+.glass-panel {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+/* Photo Frame */
+.photo-frame {
+  position: relative;
+  width: 240px;
+  height: 290px;
+  border-radius: 1.5rem;
+  background: linear-gradient(145deg, #FCE7EF, #E8F5EE);
+  border: 4px solid #FFFFFF;
+  box-shadow: 0 12px 30px rgba(168, 74, 107, 0.14);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.photo-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Edit Mode Indicators */
+body.edit-mode [data-editable] {
+  outline: 2px dashed #A84A6B;
+  outline-offset: 4px;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.65);
+  cursor: text;
+  user-select: text;
+}
+
+body.edit-mode .photo-frame {
+  cursor: pointer;
+  outline: 3px dashed #4A7A64;
+  outline-offset: 4px;
+}
+
+body.edit-mode .photo-frame:hover {
+  transform: scale(1.03);
+}
+
+/* Auto-hiding Single Control Bar */
+#control-bar {
+  position: fixed;
+  bottom: 22px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 16px;
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(168, 74, 107, 0.2);
+  border-radius: 9999px;
+  box-shadow: 0 10px 30px rgba(45, 38, 41, 0.12);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+#control-bar.bar-hidden {
+  opacity: 0;
+  transform: translate(-50%, 28px);
+  pointer-events: none;
+}
+
+/* Quick Jump Drawer */
+#slide-drawer {
+  position: fixed;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 680px;
+  max-height: 55vh;
+  overflow-y: auto;
+  z-index: 60;
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(18px);
+  border: 1px solid rgba(168, 74, 107, 0.2);
+  border-radius: 1.5rem;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.16);
+  padding: 1.25rem;
+}
