@@ -62,7 +62,7 @@ const defaultSlides = [
     title: 'Perasmian oleh',
     name: 'PUAN FERAWIKA BINTI KARNADY',
     role: 'PENGARAH URUSAN TADIKA INSPIRASI',
-    photo: 'images/fera.png',
+    photo: 'images/Fera.png',
     placeholderLabel: 'Foto Puan Ferawika'
   },
   {
@@ -160,7 +160,7 @@ const defaultSlides = [
     performer: 'PELAJAR 5 HIBISCUS DAN 6 RAFFLESIA',
     teacher: 'PUAN FERAWIKA BINTI KARNADY',
     nickname: 'TEACHER FERA',
-    photo: 'images/fera.png',
+    photo: 'images/Fera.png',
     confetti: true
   },
   {
