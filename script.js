@@ -176,7 +176,7 @@ const defaultSlides = [
     performer: 'PELAJAR 5 HIBISCUS DAN 6 RAFFLESIA',
     teacher: 'PUAN FERAWIKA BINTI KARNADY',
     nickname: 'TEACHER FERA',
-    photo: 'images/fera.png',
+    photo: 'images/Fera.png',
     confetti: true
   },
 
