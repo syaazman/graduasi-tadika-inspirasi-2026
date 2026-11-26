@@ -195,19 +195,19 @@ const defaultSlides = [
     title: 'Anugerah Khas',
     subtitle: 'Tadika Inspirasi 2026'
   },
-  { type: 'award_photo', badge: 'ANUGERAH KHAS 2026', awardTitle: 'KEHADIRAN CEMERLANG', name: 'MOHAMAD AKASYAH FARIS BIN MOHAMAD AIMAN', photo: 'images/Kedudukan/akasyah.png', placeholderLabel: 'Akasyah Faris', confetti: true },
-  { type: 'award_photo', badge: 'ANUGERAH KHAS 2026', awardTitle: 'ANUGERAH AKHLAK & SAHSIAH TERBAIK', name: 'AARIZ IDRAKI BIN AMIRUL AIMAN', photo: 'images/Kedudukan/aariz.png', placeholderLabel: 'Akasyah Faris', confetti: true },
-  { type: 'award_photo', badge: 'ANUGERAH KHAS 2026', awardTitle: 'ANUGERAH NAIK AL-QURAN', name: 'HARIS AIMAN BIN MUHAMMAD ARIFF', photo: 'images/6Tahun/haris.png', imgPos: 'top', placeholderLabel: 'Haris Aiman', confetti: true },
-  { type: 'award_photo', badge: 'ANUGERAH KHAS 2026', awardTitle: 'ANUGERAH NAIK AL-QURAN', name: 'ANNUR FATHIA BINTI MOHD HEDDAYAT', photo: 'images/6Tahun/annur.png', imgPos: 'top', placeholderLabel: 'Annur Fathia', confetti: true },
-  { type: 'award_photo', badge: 'ANUGERAH KHAS 2026', awardTitle: 'ANUGERAH NAIK AL-QURAN', name: 'AMAL AL-AHSAN BIN MUHAMMAD ALIF', photo: 'images/Kedudukan/amal.png', placeholderLabel: 'Amal Al-Ahsan', confetti: true },
-  { type: 'award_photo', badge: 'ANUGERAH KHAS 2026', awardTitle: 'ANUGERAH NAIK AL-QURAN', name: 'MUHAMMAD AQIB BIN NAJIBUSYAFIK', photo: 'images/6Tahun/aqib.png', placeholderLabel: 'Muhammad Aqib', confetti: true },
-  { type: 'award_photo', badge: 'ANUGERAH KHAS 2026', awardTitle: 'ANUGERAH PELAJAR PALING AKTIF', name: 'MOHAMAD FATTEH SHAH BIN MOHAMAD IQRAAM SHAH', photo: 'images/6Tahun/fatteh.png', placeholderLabel: 'Fatteh Shah', confetti: true },
-  { type: 'award_photo', badge: 'ANUGERAH KHAS 2026', awardTitle: 'ANUGERAH PELAJAR BERKETRAMPILAN KEMAS', name: 'MUHAMMAD ZULQARNAIN BIN MUHAMAD ZULHUSMI', photo: 'images/6Tahun/zulqarnain.png', placeholderLabel: 'Zulqarnain', confetti: true },
-  { type: 'award_photo', badge: 'ANUGERAH KHAS 2026', awardTitle: 'ANUGERAH PELAJAR PALING KREATIF', name: 'MUHAMMAD AQIB BIN NAJIBUSYAFIK', photo: 'images/6Tahun/aqib.png', placeholderLabel: 'Muhammad Aqib', confetti: true },
-  { type: 'award_photo', badge: 'ANUGERAH KHAS 2026', awardTitle: 'ANUGERAH PELAJAR PRIHATIN', name: 'AQIL LUQMAN BIN KHAIRUL KHANIZAM', photo: 'images/6Tahun/aqil.png', placeholderLabel: 'Aqil Luqman', confetti: true },
-  { type: 'award_photo', badge: 'ANUGERAH KHAS 2026', awardTitle: 'ANUGERAH PELAJAR AKADEMIK TERBAIK', name: 'ANNUR FATHIA BINTI MOHD HEDDAYAT', photo: 'images/6Tahun/annur.png', imgPos: 'top', placeholderLabel: 'Annur Fathia', confetti: true },
-  { type: 'award_photo', badge: 'ANUGERAH KHAS 2026', awardTitle: 'ANUGERAH PELAJAR CEMERLANG', name: 'MUHAMMAD AFFAN AL FATIH BIN MUHAMMAD AMEIN', photo: 'images/6Tahun/affan.png', imgPos: 'top', placeholderLabel: 'Affan Al Fatih', confetti: true },
-  { type: 'award_photo', badge: 'ANUGERAH KHAS 2026', awardTitle: 'ANUGERAH TOKOH PELAJAR', name: 'HARIS AIMAN BIN MUHAMMAD ARIFF', photo: 'images/6Tahun/haris.png', imgPos: 'top', placeholderLabel: 'Haris Aiman', confetti: true },
+  { type: 'award_photo', badge: 'ANUGERAH KHAS 2026', awardTitle: 'KEHADIRAN CEMERLANG', name: 'MOHAMAD AKASYAH FARIS BIN MOHAMAD AIMAN', photo: 'images/Kedudukan/akasyah.PNG', placeholderLabel: 'Akasyah Faris', confetti: true },
+  { type: 'award_photo', badge: 'ANUGERAH KHAS 2026', awardTitle: 'ANUGERAH AKHLAK & SAHSIAH TERBAIK', name: 'AARIZ IDRAKI BIN AMIRUL AIMAN', photo: 'images/Kedudukan/aariz.PNG', placeholderLabel: 'Akasyah Faris', confetti: true },
+  { type: 'award_photo', badge: 'ANUGERAH KHAS 2026', awardTitle: 'ANUGERAH NAIK AL-QURAN', name: 'HARIS AIMAN BIN MUHAMMAD ARIFF', photo: 'images/6Tahun/haris.PNG', imgPos: 'top', placeholderLabel: 'Haris Aiman', confetti: true },
+  { type: 'award_photo', badge: 'ANUGERAH KHAS 2026', awardTitle: 'ANUGERAH NAIK AL-QURAN', name: 'ANNUR FATHIA BINTI MOHD HEDDAYAT', photo: 'images/6Tahun/annur.PNG', imgPos: 'top', placeholderLabel: 'Annur Fathia', confetti: true },
+  { type: 'award_photo', badge: 'ANUGERAH KHAS 2026', awardTitle: 'ANUGERAH NAIK AL-QURAN', name: 'AMAL AL-AHSAN BIN MUHAMMAD ALIF', photo: 'images/Kedudukan/amal.PNG', placeholderLabel: 'Amal Al-Ahsan', confetti: true },
+  { type: 'award_photo', badge: 'ANUGERAH KHAS 2026', awardTitle: 'ANUGERAH NAIK AL-QURAN', name: 'MUHAMMAD AQIB BIN NAJIBUSYAFIK', photo: 'images/6Tahun/aqib.PNG', placeholderLabel: 'Muhammad Aqib', confetti: true },
+  { type: 'award_photo', badge: 'ANUGERAH KHAS 2026', awardTitle: 'ANUGERAH PELAJAR PALING AKTIF', name: 'MOHAMAD FATTEH SHAH BIN MOHAMAD IQRAAM SHAH', photo: 'images/6Tahun/fatteh.PNG', placeholderLabel: 'Fatteh Shah', confetti: true },
+  { type: 'award_photo', badge: 'ANUGERAH KHAS 2026', awardTitle: 'ANUGERAH PELAJAR BERKETRAMPILAN KEMAS', name: 'MUHAMMAD ZULQARNAIN BIN MUHAMAD ZULHUSMI', photo: 'images/6Tahun/zulqarnain.PNG', placeholderLabel: 'Zulqarnain', confetti: true },
+  { type: 'award_photo', badge: 'ANUGERAH KHAS 2026', awardTitle: 'ANUGERAH PELAJAR PALING KREATIF', name: 'MUHAMMAD AQIB BIN NAJIBUSYAFIK', photo: 'images/6Tahun/aqib.PNG', placeholderLabel: 'Muhammad Aqib', confetti: true },
+  { type: 'award_photo', badge: 'ANUGERAH KHAS 2026', awardTitle: 'ANUGERAH PELAJAR PRIHATIN', name: 'AQIL LUQMAN BIN KHAIRUL KHANIZAM', photo: 'images/6Tahun/aqil.PNG', placeholderLabel: 'Aqil Luqman', confetti: true },
+  { type: 'award_photo', badge: 'ANUGERAH KHAS 2026', awardTitle: 'ANUGERAH PELAJAR AKADEMIK TERBAIK', name: 'ANNUR FATHIA BINTI MOHD HEDDAYAT', photo: 'images/6Tahun/annur.PNG', imgPos: 'top', placeholderLabel: 'Annur Fathia', confetti: true },
+  { type: 'award_photo', badge: 'ANUGERAH KHAS 2026', awardTitle: 'ANUGERAH PELAJAR CEMERLANG', name: 'MUHAMMAD AFFAN AL FATIH BIN MUHAMMAD AMEIN', photo: 'images/6Tahun/affan.PNG', imgPos: 'top', placeholderLabel: 'Affan Al Fatih', confetti: true },
+  { type: 'award_photo', badge: 'ANUGERAH KHAS 2026', awardTitle: 'ANUGERAH TOKOH PELAJAR', name: 'HARIS AIMAN BIN MUHAMMAD ARIFF', photo: 'images/6Tahun/haris.PNG', imgPos: 'top', placeholderLabel: 'Haris Aiman', confetti: true },
 
   // 57-58: Persembahan & Cenderahati Pelajar
   {
@@ -242,11 +242,11 @@ const defaultSlides = [
     badge: 'SENARAI GRADUAN • 4 TAHUN',
     title: 'Kelas 4 Tulip',
     students: [
-      '1. MUHAMMAD AIMAN FATEH BIN MUHAMMAD FARHAN',
-      '2. MOHAMAD AKASYAH FARIS BIN MOHAMAD AIMAN',
-      '3. NURYN ERYNA BINTI MOHAMAD AZIZUL HAIREE',
-      '4. MINA ARI BINTI MUHAMMAD YUNUS',
-      '5. AMMAR NAWFAL BIN MUHAMMAD ZAKI'
+      'MUHAMMAD AIMAN FATEH BIN MUHAMMAD FARHAN',
+      'MOHAMAD AKASYAH FARIS BIN MOHAMAD AIMAN',
+      'NURYN ERYNA BINTI MOHAMAD AZIZUL HAIREE',
+      'MINA ARI BINTI MUHAMMAD YUNUS',
+      'AMMAR NAWFAL BIN MUHAMMAD ZAKI'
     ]
   },
   {
@@ -254,11 +254,11 @@ const defaultSlides = [
     badge: 'SENARAI GRADUAN • 5 TAHUN',
     title: 'Kelas 5 Hibiscus',
     students: [
-      '1. AMAL AL AHSAN BIN MUHAMMAD ALIF',
-      '2. AARIZ IDRAKI BIN AMIRUL AIMAN',
-      '3. AIRIS LASHIRA BINTI NUR LATIF',
-      '4. AKMAL KONG KONG AHMAD ZAFRAN KONG',
-      '5. AARIF MALIQUE BIN MOHAMAD AFIQ AIMAN'
+      'AMAL AL AHSAN BIN MUHAMMAD ALIF',
+      'AARIZ IDRAKI BIN AMIRUL AIMAN',
+      'AIRIS LASHIRA BINTI NUR LATIF',
+      'AKMAL KONG KONG AHMAD ZAFRAN KONG',
+      'AARIF MALIQUE BIN MOHAMAD AFIQ AIMAN'
     ]
   },
   {
@@ -266,13 +266,13 @@ const defaultSlides = [
     badge: 'SENARAI GRADUAN • 6 TAHUN',
     title: 'Kelas 6 Rafflesia',
     students: [
-      '1. HARIS AIMAN BIN MUHAMMAD ARIFF',
-      '2. MUHAMMAD AFFAN AL FATIH BIN MUHAMMAD AMEIN',
-      '3. ANNUR FATHIA BINTI MOHD HEDDAYAT',
-      '4. AQIL LUQMAN BIN KHAIRUL KHANIZAM',
-      '5. MUHAMMAD AQIB BIN NAJIBUSYAFIK',
-      '6. MUHAMMAD ZULQARNAIN BIN MUHAMAD ZULHUSMI',
-      '7. MOHAMAD FATTEH SHAH BIN MOHAMAD IQRAAM SHAH'
+      'HARIS AIMAN BIN MUHAMMAD ARIFF',
+      'MUHAMMAD AFFAN AL FATIH BIN MUHAMMAD AMEIN',
+      'ANNUR FATHIA BINTI MOHD HEDDAYAT',
+      'AQIL LUQMAN BIN KHAIRUL KHANIZAM',
+      'MUHAMMAD AQIB BIN NAJIBUSYAFIK',
+      'MUHAMMAD ZULQARNAIN BIN MUHAMAD ZULHUSMI',
+      'MOHAMAD FATTEH SHAH BIN MOHAMAD IQRAAM SHAH'
     ]
   },
 
@@ -285,19 +285,19 @@ const defaultSlides = [
     subtitle: 'Tetamu VIP & Barisan Guru Tadika Inspirasi'
   },
  { type: 'sub_header', badge: 'PENGHARGAAN WARGA PENDIDIK', title: 'Penghargaan Guru', subtitle: 'Tadika Inspirasi 2026' },
-  { type: 'staff_photo', badge: 'PENGHARGAAN GURU', name: 'NORLAILATULAILA BINTI IBRAHIM', role: 'GURU PEMBIMBING', education: 'DIPLOMA PENDIDIKAN AWAL KANAK-KANAK', photo: 'images/laila.png', placeholderLabel: 'Teacher Norlailatulaila' },
-  { type: 'staff_photo', badge: 'PENGHARGAAN GURU', name: 'NUR ZULAIKA SYAZWANI BINTI CHE RONI', role: 'GURU PEMBIMBING', education: 'IJAZAH SARJANA MUDA (KEPUJIAN) SAINS TEKSTIL DAN TEKNOLOGI FESYEN', photo: 'images/zulaika.jpeg', placeholderLabel: 'Teacher Zulaika' },
-  { type: 'staff_photo', badge: 'PENGHARGAAN GURU', name: 'FAIRUZ BINTI AHMAD ANUAR', role: 'GURU PEMBIMBING',photo: 'images/fairuz.png', placeholderLabel: 'Teacher Fairuz' },
+  { type: 'staff_photo', badge: 'PENGHARGAAN GURU', name: 'NORLAILATULAILA BINTI IBRAHIM', role: 'GURU', education: 'DIPLOMA PENDIDIKAN AWAL KANAK-KANAK', photo: 'images/laila.png', placeholderLabel: 'Teacher Norlailatulaila' },
+  { type: 'staff_photo', badge: 'PENGHARGAAN GURU', name: 'NUR ZULAIKA SYAZWANI BINTI CHE RONI', role: 'GURU', education: 'IJAZAH SARJANA MUDA (KEPUJIAN) SAINS TEKSTIL DAN TEKNOLOGI FESYEN', photo: 'images/zulaika.jpeg', placeholderLabel: 'Teacher Zulaika' },
+  { type: 'staff_photo', badge: 'PENGHARGAAN GURU', name: 'FAIRUZ BINTI AHMAD ANUAR', role: 'GURU',education: 'IJAZAH SARJANA MUDA PENDIDIKAN', photo: 'images/fairuz.png', placeholderLabel: 'Teacher Fairuz' },
   { type: 'staff_photo', badge: 'PENGHARGAAN GURU', name: 'AIMAN SYAFIQAH BINTI HILMI AZMAN', role: 'GURU', education: 'IJAZAH SARJANA MUDA TEKNOLOGI (MAKANAN)',photo: 'images/syafiqah.png', placeholderLabel: 'Teacher Aiman' },
   { type: 'staff_photo', badge: 'PENGHARGAAN GURU', name: 'NOOR FATIN ZULAIKHA BINTI SAIFUL BAHARI', role: 'GURU', education: 'DIPLOMA PENDIDIKAN AWAL KANAK-KANAK', photo: 'images/fatin.png', placeholderLabel: 'Teacher Fatin' },
-  { type: 'staff_photo', badge: 'PENGHARGAAN GURU', name: '`AMNI IZZATI BINTI ZAINORIN', role: 'GURU PEMBIMBING', education: 'DIPLOMA PENDIDIKAN LEPASAN IJAZAH', photo: 'images/amni.png', placeholderLabel: 'Teacher `Amni' }, 
+  { type: 'staff_photo', badge: 'PENGHARGAAN GURU', name: '`AMNI IZZATI BINTI ZAINORIN', role: 'GURU', education: 'DIPLOMA PENDIDIKAN LEPASAN IJAZAH', photo: 'images/amni.png', placeholderLabel: 'Teacher `Amni' }, 
 {
     type: 'sub_header',
     badge: 'PENGHARGAAN JAWATANKUASA MAJLIS',
     title: 'Penghargaan Urus Setia',
     subtitle: ''
   },
-  { type: 'staff_simple', badge: 'PENGHARGAAN URUS SETIA', name: 'NURAISHAH BINTI NUR QAYYUM', role: 'JURUGAMBAR' },
+  { type: 'staff_simple', badge: 'PENGHARGAAN URUS SETIA', name: 'NUR AISHAH BINTI NUR QAYYUM', role: 'JURUGAMBAR' },
   { type: 'staff_simple', badge: 'PENGHARGAAN URUS SETIA', name: 'TASNIM BINTI JUSNI', role: 'PENGACARA MAJLIS' },
 
   { type: 'sub_header', badge: 'PENGHARGAAN KHAS', title: 'Penghargaan VIP', subtitle: 'Pengelola Tadika Inspirasi' },
@@ -317,7 +317,7 @@ const defaultSlides = [
     badge: 'ANUGERAH KHAS 2026',
     awardTitle: 'ANUGERAH BAPA MITHALI',
     name: 'KARNADY BIN RACHMAN',
-    photo: 'images/karnady.jpg', // Padam baris ini jika tiada gambar, atau tukar nama fail mengikut gambar sebenar
+    photo: 'images/karnady.jpeg', // Padam baris ini jika tiada gambar, atau tukar nama fail mengikut gambar sebenar
     placeholderLabel: 'Foto Karnady Bin Rachman',
     confetti: true
   },
@@ -337,7 +337,7 @@ const defaultSlides = [
     performer: 'PELAJAR 4 TULIP, 5 HIBISCUS DAN 6 RAFFLESIA',
     teacher: 'PUAN FERAWIKA BINTI KARNADY',
     nickname: 'TEACHER FERA',
-    photo: 'images/fera.png',
+    photo: 'images/Fera.png',
     confetti: true
   },
 
