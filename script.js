@@ -136,21 +136,21 @@ const defaultSlides = [
   },
   // 4 Tahun (4 Tulip)
   { type: 'sub_header', badge: 'KATEGORI UMUR', title: '4 TAHUN', subtitle: 'Anugerah Kedudukan Terbaik Kelas 4 Tulip' },
-  { type: 'award_photo', badge: 'KEDUDUKAN TERBAIK • 4 TULIP', awardTitle: 'TEMPAT KETIGA (4 TULIP)', name: 'NURYN ERYNA BINTI MOHAMAD AZIZUL HAIREE', photo: 'images/Kedudukan/nuryn.png', placeholderLabel: 'Tempat Ke-3 (4T)', confetti: true },
-  { type: 'award_photo', badge: 'KEDUDUKAN TERBAIK • 4 TULIP', awardTitle: 'TEMPAT KEDUA (4 TULIP)', name: 'MOHAMAD AKASYAH FARIS BIN MOHAMAD AIMAN', photo: 'images/Kedudukan/akasyah.png', placeholderLabel: 'Tempat Ke-2 (4T)', confetti: true },
-  { type: 'award_photo', badge: 'KEDUDUKAN TERBAIK • 4 TULIP', awardTitle: 'TEMPAT PERTAMA (4 TULIP)', name: 'MUHAMMAD AIMAN FATEH BIN MUHAMMAD FARHAN', photo: 'images/Kedudukan/aiman.png', placeholderLabel: 'Tempat Pertama (4T)', confetti: true },
+  { type: 'award_photo', badge: 'KEDUDUKAN TERBAIK • 4 TULIP', awardTitle: 'TEMPAT KETIGA (4 TULIP)', name: 'NURYN ERYNA BINTI MOHAMAD AZIZUL HAIREE', photo: 'images/Kedudukan/nuryn.PNG', placeholderLabel: 'Tempat Ke-3 (4T)', confetti: true },
+  { type: 'award_photo', badge: 'KEDUDUKAN TERBAIK • 4 TULIP', awardTitle: 'TEMPAT KEDUA (4 TULIP)', name: 'MOHAMAD AKASYAH FARIS BIN MOHAMAD AIMAN', photo: 'images/Kedudukan/akasyah.PNG', placeholderLabel: 'Tempat Ke-2 (4T)', confetti: true },
+  { type: 'award_photo', badge: 'KEDUDUKAN TERBAIK • 4 TULIP', awardTitle: 'TEMPAT PERTAMA (4 TULIP)', name: 'MUHAMMAD AIMAN FATEH BIN MUHAMMAD FARHAN', photo: 'images/Kedudukan/aiman.PNG', placeholderLabel: 'Tempat Pertama (4T)', confetti: true },
 
   // 5 Tahun (5 Hibiscus)
   { type: 'sub_header', badge: 'KATEGORI UMUR', title: '5 TAHUN', subtitle: 'Anugerah Kedudukan Terbaik Kelas 5 Hibiscus' },
-  { type: 'award_photo', badge: 'KEDUDUKAN TERBAIK • 5 HIBISCUS', awardTitle: 'TEMPAT KETIGA (5 HIBISCUS)', name: 'AIRIS LASHIRA BINTI NUR LATIF', photo: 'images/Kedudukan/airis.png', placeholderLabel: 'Tempat Ke-3 (5H)', confetti: true },
-  { type: 'award_photo', badge: 'KEDUDUKAN TERBAIK • 5 HIBISCUS', awardTitle: 'TEMPAT KEDUA (5 HIBISCUS)', name: 'AARIZ IDRAKI BIN AMIRUL AIMAN', photo: 'images/Kedudukan/aariz.png', placeholderLabel: 'Tempat Ke-2 (5H)', confetti: true },
-  { type: 'award_photo', badge: 'KEDUDUKAN TERBAIK • 5 HIBISCUS', awardTitle: 'TEMPAT PERTAMA (5 HIBISCUS)', name: 'AMAL AL AHSAN BIN MUHAMMAD ALIF', photo: 'images/Kedudukan/amal.png', placeholderLabel: 'Tempat Pertama (5H)', confetti: true },
+  { type: 'award_photo', badge: 'KEDUDUKAN TERBAIK • 5 HIBISCUS', awardTitle: 'TEMPAT KETIGA (5 HIBISCUS)', name: 'AIRIS LASHIRA BINTI NUR LATIF', photo: 'images/Kedudukan/airis.PNG', placeholderLabel: 'Tempat Ke-3 (5H)', confetti: true },
+  { type: 'award_photo', badge: 'KEDUDUKAN TERBAIK • 5 HIBISCUS', awardTitle: 'TEMPAT KEDUA (5 HIBISCUS)', name: 'AARIZ IDRAKI BIN AMIRUL AIMAN', photo: 'images/Kedudukan/aariz.PNG', placeholderLabel: 'Tempat Ke-2 (5H)', confetti: true },
+  { type: 'award_photo', badge: 'KEDUDUKAN TERBAIK • 5 HIBISCUS', awardTitle: 'TEMPAT PERTAMA (5 HIBISCUS)', name: 'AMAL AL AHSAN BIN MUHAMMAD ALIF', photo: 'images/Kedudukan/amal.PNG', placeholderLabel: 'Tempat Pertama (5H)', confetti: true },
 
   // 6 Tahun (6 Rafflesia)
   { type: 'sub_header', badge: 'KATEGORI UMUR', title: '6 TAHUN', subtitle: 'Anugerah Kedudukan Terbaik Kelas 6 Rafflesia' },
-  { type: 'award_photo', badge: 'KEDUDUKAN TERBAIK • 6 RAFFLESIA', awardTitle: 'TEMPAT KETIGA (6 RAFFLESIA)', name: 'ANNUR FATHIA BINTI MOHD HEDDAYAT', photo: 'images/Kedudukan/annur.png', imgPos: 'top', placeholderLabel: 'Tempat Ke-3 (6R)', confetti: true },
-  { type: 'award_photo', badge: 'KEDUDUKAN TERBAIK • 6 RAFFLESIA', awardTitle: 'TEMPAT KEDUA (6 RAFFLESIA)', name: 'MUHAMMAD AFFAN AL FATIH BIN MUHAMMAD AMEIN', photo: 'images/Kedudukan/affan.png', imgPos: 'top', placeholderLabel: 'Tempat Ke-2 (6R)', confetti: true },
-  { type: 'award_photo', badge: 'KEDUDUKAN TERBAIK • 6 RAFFLESIA', awardTitle: 'TEMPAT PERTAMA (6 RAFFLESIA)', name: 'HARIS AIMAN BIN MUHAMMAD ARIFF', photo: 'images/Kedudukan/haris.png', imgPos: 'top', placeholderLabel: 'Tempat Pertama (6R)', confetti: true },
+  { type: 'award_photo', badge: 'KEDUDUKAN TERBAIK • 6 RAFFLESIA', awardTitle: 'TEMPAT KETIGA (6 RAFFLESIA)', name: 'ANNUR FATHIA BINTI MOHD HEDDAYAT', photo: 'images/Kedudukan/annur.PNG', imgPos: 'top', placeholderLabel: 'Tempat Ke-3 (6R)', confetti: true },
+  { type: 'award_photo', badge: 'KEDUDUKAN TERBAIK • 6 RAFFLESIA', awardTitle: 'TEMPAT KEDUA (6 RAFFLESIA)', name: 'MUHAMMAD AFFAN AL FATIH BIN MUHAMMAD AMEIN', photo: 'images/Kedudukan/affan.PNG', imgPos: 'top', placeholderLabel: 'Tempat Ke-2 (6R)', confetti: true },
+  { type: 'award_photo', badge: 'KEDUDUKAN TERBAIK • 6 RAFFLESIA', awardTitle: 'TEMPAT PERTAMA (6 RAFFLESIA)', name: 'HARIS AIMAN BIN MUHAMMAD ARIFF', photo: 'images/Kedudukan/haris.PNG', imgPos: 'top', placeholderLabel: 'Tempat Pertama (6R)', confetti: true },
   
   // 42-43: Persembahan Pertengahan
   {
