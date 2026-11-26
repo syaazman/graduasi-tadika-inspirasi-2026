@@ -86,6 +86,12 @@ const defaultSlides = [
     photo: 'images/fatin.png',
     confetti: true
   },
+  {
+    type: 'video_slide',
+    badge: 'VIDEO PERSEMBAHAN',
+    title: 'LAGU ARAB SONG',
+    videoSrc: 'videos/arab.mp4',
+  },
 
   /*// 10: Tajuk Segmen Anugerah Subjek Terbaik
   {
@@ -257,7 +263,7 @@ const defaultSlides = [
       'AMAL AL AHSAN BIN MUHAMMAD ALIF',
       'AARIZ IDRAKI BIN AMIRUL AIMAN',
       'AIRIS LASHIRA BINTI NUR LATIF',
-      'AKMAL KONG KONG AHMAD ZAFRAN KONG',
+      'AKMAL KONG BIN AHMAD ZAFRAN KONG',
       'AARIF MALIQUE BIN MOHAMAD AFIQ AIMAN'
     ]
   },
@@ -416,8 +422,8 @@ function renderSlide(index) {
   } else if (s.type === 'agenda') {
     html = `
       <div class="slide-card glass-panel p-10 md:p-16">
-        <div class="w-20 h-20 rounded-2xl bg-emerald-50 border-2 border-emerald-200 flex items-center justify-center mb-6 shadow-sm">
-          <i class="fa-solid ${s.icon} text-3xl text-emerald-700"></i>
+        <div class="mb-4 flex justify-center">
+          <img src="images/logo.png" alt="Logo Tadika Inspirasi" class="w-28 md:w-36 h-auto object-contain drop-shadow-sm" />
         </div>
         <span class="px-4 py-1 rounded-full bg-emerald-100/80 text-emerald-800 text-xs font-bold tracking-widest uppercase mb-5" data-editable="badge">${s.badge}</span>
         <h1 class="font-serif-display text-4xl md:text-6xl font-bold text-stone-800 leading-tight max-w-3xl mb-5" data-editable="title">${s.title}</h1>
@@ -468,8 +474,8 @@ function renderSlide(index) {
   } else if (s.type === 'performance_single') {
     html = `
       <div class="slide-card glass-panel p-10 md:p-14">
-        <div class="w-16 h-16 rounded-full bg-rose-100 text-rose-700 flex items-center justify-center mb-5 shadow-sm">
-          <i class="fa-solid fa-music text-2xl"></i>
+        <div class="mb-4 flex justify-center">
+          <img src="images/logo.png" alt="Logo Tadika Inspirasi" class="w-28 md:w-36 h-auto object-contain drop-shadow-sm" />
         </div>
         <span class="px-4 py-1 rounded-full bg-rose-100 text-rose-800 text-xs font-bold tracking-widest uppercase mb-4" data-editable="badge">${s.badge}</span>
         <h1 class="font-serif-display text-4xl md:text-5xl font-bold text-stone-800 mb-4" data-editable="title">${s.title}</h1>
@@ -507,19 +513,28 @@ function renderSlide(index) {
   } else if (s.type === 'section_header') {
     html = `
       <div class="slide-card glass-panel p-12 md:p-16">
-        <div class="w-24 h-24 rounded-full bg-gradient-to-br from-amber-100 to-rose-100 border-4 border-white shadow-md flex items-center justify-center mb-6">
-          <i class="fa-solid ${s.icon} text-4xl text-amber-700"></i>
+        <div class="mb-4 flex justify-center">
+          <img src="images/logo.png" alt="Logo Tadika Inspirasi" class="w-28 md:w-36 h-auto object-contain drop-shadow-sm" />
         </div>
         <span class="px-4 py-1 rounded-full bg-amber-100 text-amber-800 text-xs font-extrabold tracking-widest uppercase mb-4" data-editable="badge">${s.badge}</span>
         <h1 class="font-serif-display text-4xl md:text-6xl font-bold text-stone-800 leading-tight max-w-3xl mb-4" data-editable="title">${s.title}</h1>
         <p class="text-stone-600 text-lg md:text-2xl font-medium max-w-2xl" data-editable="subtitle">${s.subtitle}</p>
       </div>
     `;
-  } else if (s.type === 'sub_header') {
+  } /*else if (s.type === 'sub_header') {
     html = `
       <div class="slide-card glass-panel p-12 md:p-16">
         <span class="px-5 py-1.5 rounded-full bg-emerald-100 text-emerald-800 text-xs font-extrabold tracking-widest uppercase mb-5" data-editable="badge">${s.badge}</span>
         <h1 class="text-6xl md:text-8xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-rose-700 to-emerald-700 mb-4" data-editable="title">${s.title}</h1>
+        <p class="text-stone-600 text-xl md:text-2xl font-semibold" data-editable="subtitle">${s.subtitle}</p>
+      </div>
+    `;*/
+
+    else if (s.type === 'sub_header') {
+    html = `
+      <div class="slide-card glass-panel p-12 md:p-16">
+        <span class="px-5 py-1.5 rounded-full bg-emerald-100 text-emerald-800 text-xs font-extrabold tracking-widest uppercase mb-5" data-editable="badge">${s.badge}</span>
+        <h1 class="font-serif-display lining-nums text-6xl md:text-8xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-rose-700 via-amber-600 to-emerald-700 pb-2 mb-4" data-editable="title">${s.title}</h1>
         <p class="text-stone-600 text-xl md:text-2xl font-semibold" data-editable="subtitle">${s.subtitle}</p>
       </div>
     `;
@@ -592,8 +607,8 @@ function renderSlide(index) {
   } else if (s.type === 'closing_thanks') {
     html = `
       <div class="slide-card glass-panel p-12 md:p-16">
-        <div class="w-20 h-20 rounded-full bg-rose-100 text-rose-600 flex items-center justify-center mb-6 shadow-sm">
-          <i class="fa-solid fa-hands-holding-heart text-3xl"></i>
+        <div class="mb-4 flex justify-center">
+          <img src="images/logo.png" alt="Logo Tadika Inspirasi" class="w-28 md:w-36 h-auto object-contain drop-shadow-sm" />
         </div>
         <span class="px-4 py-1 rounded-full bg-rose-100 text-rose-800 text-xs font-bold tracking-widest uppercase mb-4" data-editable="badge">${s.badge}</span>
         <h1 class="font-serif-display text-6xl md:text-8xl font-bold text-stone-800 tracking-wide mb-5" data-editable="title">${s.title}</h1>
@@ -959,6 +974,10 @@ document.addEventListener('keydown', (e) => {
     toggleBgm('perarakan');
   }else if (e.key === '3') {
     toggleBgm('hadiah');
+  } else if (e.key === '4') {
+    toggleBgm('bapa');
+  } else if (e.key === '5') {
+    toggleBgm('restu');
   } else if (e.key.toLowerCase() === 'm') {
     stopAllBgm();
   }
@@ -1025,6 +1044,16 @@ function toggleBgm(type) {
       audio: document.getElementById('bgm-hadiah'),
       btn: document.getElementById('btn-bgm-hadiah'),
       ring: 'ring-amber-500'
+    },
+    bapa: {
+      audio: document.getElementById('bgm-bapa'),
+      btn: document.getElementById('btn-bgm-bapa'),
+      ring: 'ring-sky-500'
+    },
+    restu: {
+      audio: document.getElementById('bgm-restu'),
+      btn: document.getElementById('btn-bgm-restu'),
+      ring: 'ring-rose-500'
     }
   };
 
@@ -1060,7 +1089,9 @@ function stopAllBgm() {
   const rings = {
     vip: 'ring-emerald-500',
     perarakan: 'ring-purple-500',
-    hadiah: 'ring-amber-500'
+    hadiah: 'ring-amber-500',
+    bapa: 'ring-sky-500',
+    restu: 'ring-rose-500'
   };
   Object.keys(rings).forEach(type => {
     const audio = document.getElementById(`bgm-${type}`);
