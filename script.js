@@ -66,6 +66,12 @@ const defaultSlides = [
     placeholderLabel: 'Foto Puan Ferawika'
   },
   {
+    type: 'video_slide',
+    badge: 'GIMIK PERASMIAN',
+    title: 'Gimik Perasmian Hari Graduasi 2026',
+    videoSrc: 'videos/gimik.mp4'
+  },
+  {
     type: 'performance_list',
     badge: 'PERSEMBAHAN PEMBUKAAN',
     title: 'PERSEMBAHAN TILAWAH AL-QURAN',
@@ -296,7 +302,7 @@ const defaultSlides = [
   { type: 'staff_photo', badge: 'PENGHARGAAN GURU', name: 'FAIRUZ BINTI AHMAD ANUAR', role: 'GURU',education: 'IJAZAH SARJANA MUDA PENDIDIKAN', photo: 'images/fairuz.png', placeholderLabel: 'Teacher Fairuz' },
   { type: 'staff_photo', badge: 'PENGHARGAAN GURU', name: 'AIMAN SYAFIQAH BINTI HILMI AZMAN', role: 'GURU', education: 'IJAZAH SARJANA MUDA TEKNOLOGI (MAKANAN)',photo: 'images/syafiqah.png', placeholderLabel: 'Teacher Aiman' },
   { type: 'staff_photo', badge: 'PENGHARGAAN GURU', name: 'NOOR FATIN ZULAIKHA BINTI SAIFUL BAHARI', role: 'GURU', education: 'DIPLOMA PENDIDIKAN AWAL KANAK-KANAK', photo: 'images/fatin.png', placeholderLabel: 'Teacher Fatin' },
-  { type: 'staff_photo', badge: 'PENGHARGAAN GURU', name: '`AMNI IZZATI BINTI ZAINORIN', role: 'GURU', education: 'DIPLOMA PENDIDIKAN LEPASAN IJAZAH', photo: 'images/amni.png', placeholderLabel: 'Teacher `Amni' }, 
+  { type: 'staff_photo', badge: 'PENGHARGAAN GURU', name: '`AMNI IZZATI BINTI ZAINORIN', role: 'GURU', education: 'SARJANA MUDA SAINS SOSIAL DENGAN KEPUJIAN (LINGUISTIK)', photo: 'images/amni.png', placeholderLabel: 'Teacher `Amni' }, 
 {
     type: 'sub_header',
     badge: 'PENGHARGAAN JAWATANKUASA MAJLIS',
@@ -307,9 +313,9 @@ const defaultSlides = [
   { type: 'staff_simple', badge: 'PENGHARGAAN URUS SETIA', name: 'TASNIM BINTI JUSNI', role: 'PENGACARA MAJLIS' },
 
   { type: 'sub_header', badge: 'PENGHARGAAN KHAS', title: 'Penghargaan VIP', subtitle: 'Pengelola Tadika Inspirasi' },
-  { type: 'staff_photo', badge: 'TETAMU VIP', name: 'ENCIK MOHAMAD AIMAN BIN MOHAMAD ASRI', role: 'PENGELOLA 1', photo: 'images/aiman.png', placeholderLabel: 'Encik Mohamad Aiman' },
   { type: 'staff_photo', badge: 'TETAMU VIP', name: 'ENCIK MOHAMAD ANUAR BIN MOHAMAD ASRI', role: 'PENGELOLA 2', photo: 'images/ustaz_1.png', placeholderLabel: 'Encik Mohamad Anuar' },
-
+  { type: 'staff_photo', badge: 'TETAMU VIP', name: 'ENCIK MOHAMAD AIMAN BIN MOHAMAD ASRI', role: 'PENGELOLA 1', photo: 'images/aiman.png', placeholderLabel: 'Encik Mohamad Aiman' },
+ 
   // 71-72: Anugerah Bapa Mithali 2026
   {
     type: 'section_header',
