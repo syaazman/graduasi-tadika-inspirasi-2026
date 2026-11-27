@@ -984,6 +984,8 @@ document.addEventListener('keydown', (e) => {
     toggleBgm('bapa');
   } else if (e.key === '5') {
     toggleBgm('restu');
+  } else if (e.key === '6') {
+  toggleBgm('gimmick');
   } else if (e.key.toLowerCase() === 'm') {
     stopAllBgm();
   }
@@ -1060,6 +1062,11 @@ function toggleBgm(type) {
       audio: document.getElementById('bgm-restu'),
       btn: document.getElementById('btn-bgm-restu'),
       ring: 'ring-rose-500'
+    },
+    gimmick: {
+      audio: document.getElementById('bgm-gimmick'),
+      btn: document.getElementById('btn-bgm-gimmick'),
+      ring: 'ring-teal-500'
     }
   };
 
@@ -1097,7 +1104,8 @@ function stopAllBgm() {
     perarakan: 'ring-purple-500',
     hadiah: 'ring-amber-500',
     bapa: 'ring-sky-500',
-    restu: 'ring-rose-500'
+    restu: 'ring-rose-500',
+    gimmick: 'ring-teal-500'
   };
   Object.keys(rings).forEach(type => {
     const audio = document.getElementById(`bgm-${type}`);
